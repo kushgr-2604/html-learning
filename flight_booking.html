@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flight Booking System</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+    <h1 align="center">Flight Booking System</h1>
+
+    <form>
+
+        <fieldset>
+            <legend>Passenger Details</legend>
+
+            Name:
+            <input type="text" placeholder="Enter your full name">
+            <br><br>
+
+            Email:
+            <input type="email" placeholder="Enter your email">
+            <br><br>
+
+            Mobile Number:
+            <input type="tel" placeholder="Enter your number">
+            <br><br>
+
+            Gender:
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <input type="radio" name="gender"> Other
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Flight Details</legend>
+
+            From:
+            <select>
+                <option>Select City</option>
+                <option>Delhi</option>
+                <option>Mumbai</option>
+                <option>Bengaluru</option>
+                <option>Kolkata</option>
+            </select>
+
+            <br><br>
+
+            To:
+            <select>
+                <option>Select Destination</option>
+                <option>Delhi</option>
+                <option>Mumbai</option>
+                <option>Bengaluru</option>
+                <option>Kolkata</option>
+            </select>
+
+            <br><br>
+
+            Departure Date:
+            <input type="date">
+
+            <br><br>
+
+            Number of Passengers:
+            <input type="number" min="1" max="10">
+
+            <br><br>
+
+            Class:
+            <select>
+                <option>Economy</option>
+                <option>Business</option>
+                <option>First Class</option>
+            </select>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Additional Services</legend>
+
+            <input type="checkbox"> Meal Required <br>
+
+            <input type="checkbox"> Extra Luggage <br>
+
+            <input type="checkbox"> Window Seat Preference
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Payment Method</legend>
+
+            <input type="radio" name="payment"> Credit Card
+
+            <input type="radio" name="payment"> Debit Card
+
+            <input type="radio" name="payment"> UPI
+
+            <input type="radio" name="payment"> Net Banking
+
+        </fieldset>
+
+        <br>
+
+        <center>
+            <input type="submit" value="Book Flight">
+
+            <input type="reset" value="Clear Form">
+        </center>
+
+    </form>
+
+</body>
+</html>

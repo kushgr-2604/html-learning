@@ -1,0 +1,47 @@
+/* Body Alignment */
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Heading Color */
+h1 {
+    color: darkblue;
+}
+
+
+/* Input Box Styling */
+input {
+    padding: 5px;
+}
+
+
+/* Button Styling */
+button {
+    background-color: blue;
+    color: white;
+    padding: 8px 15px;
+}
+
+
+/* Table Styling */
+table {
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+
+/* Table Borders and Alignment */
+table, th, td {
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* Alternate Row Color */
+tr:nth-child(even) {
+    background-color: lightgray;
+}

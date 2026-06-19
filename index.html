@@ -1,0 +1,441 @@
+<!-- <html>
+
+<head>
+   
+    <title>Document</title> 
+
+    </head>
+    <body>
+        <h1>Heading 1</h1>
+        <p>
+            Lorem 100 ipsum dolor sit amet consectetur adipisicing elit. Voluptas, cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, cumque. 
+        </p>
+               <input type="button" value="this is an example of long button "><br><br>
+               <button>Click me</button> <br><br>
+               <input type="text" placeholder="Enter your name"><br><br>
+               <input type="password" name="" id="">
+               <br><br>
+               <input type="checkbox" id="vehicle1" name="vehicle1" value=" Bike">
+               <label for="vehicle1"> I have a bike</label><br>
+        <img src="netaji-subhash-chandra-bose-01-1501591576.jpg" alt="" />
+    </body>
+</html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduSphere - Adaptive LMS</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f5f7fa;
+            color: #333;
+        }
+
+        /* Navbar */
+        nav {
+            background: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 10%;
+            box-shadow: 0 2px 10px #ddd;
+            position: sticky;
+            top: 0;
+        }
+
+        .logo {
+            font-size: 24px;
+            color: #2563eb;
+            font-weight: bold;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+
+        /* Hero */
+        .hero {
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background:
+            linear-gradient(135deg,#2563eb,#7c3aed);
+            color: white;
+        }
+
+
+        .hero h1 {
+            font-size: 55px;
+        }
+
+        .hero p {
+            margin: 20px 0;
+            font-size: 20px;
+        }
+
+
+        .btn {
+            padding: 15px 30px;
+            background: white;
+            color: #2563eb;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 10px;
+            display: inline-block;
+        }
+
+
+        /* Features */
+        .section {
+            padding: 70px 10%;
+            text-align: center;
+        }
+
+        .section h2 {
+            margin-bottom: 40px;
+            font-size: 35px;
+        }
+
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+            gap: 20px;
+        }
+
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px #ddd;
+            transition: .3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+
+        /* Courses */
+        .course {
+            background: #2563eb;
+            color: white;
+        }
+
+
+        /* Assessment */
+        .assessment {
+            background: #7c3aed;
+            color: white;
+            padding: 80px 10%;
+            text-align: center;
+        }
+
+
+        .assessment h2 {
+            font-size: 40px;
+        }
+
+
+        /* Testimonial */
+        .testimonial {
+            background: white;
+        }
+
+
+        footer {
+            background: #111827;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+
+        @media(max-width:768px){
+
+            nav {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+
+            nav ul {
+                justify-content: center;
+            }
+
+
+            .hero h1 {
+                font-size: 35px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<!-- Navbar -->
+
+<nav>
+
+<div class="logo">
+EduSphere
+</div>
+
+
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Courses</a></li>
+<li><a href="#">Assessment</a></li>
+<li><a href="#">Login</a></li>
+<li><a href="#">Register</a></li>
+</ul>
+
+</nav>
+
+
+
+<!-- Hero -->
+
+
+<section class="hero">
+
+<div>
+
+<h1>
+Learn According To Your Skills
+</h1>
+
+
+<p>
+Take a skill assessment and discover the perfect learning path.
+</p>
+
+
+<a href="#" class="btn">
+Start Assessment
+</a>
+
+
+<a href="#" class="btn">
+Explore Courses
+</a>
+
+
+</div>
+
+</section>
+
+
+
+
+<!-- Features -->
+
+
+<section class="section">
+
+
+<h2>
+Why EduSphere?
+</h2>
+
+
+<div class="cards">
+
+
+<div class="card">
+<h3>📝 Skill Assessment</h3>
+<p>
+Find your current knowledge level.
+</p>
+</div>
+
+
+
+<div class="card">
+<h3>🎯 Personalized Courses</h3>
+<p>
+Get courses recommended for your skills.
+</p>
+</div>
+
+
+
+<div class="card">
+<h3>📹 Video Learning</h3>
+<p>
+High quality lectures and resources.
+</p>
+</div>
+
+
+<div class="card">
+<h3>🏆 Certificates</h3>
+<p>
+Earn certificates after completion.
+</p>
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+<!-- Courses -->
+
+
+<section class="section course">
+
+
+<h2>
+Popular Courses
+</h2>
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<h3>React Development</h3>
+
+<p>Beginner Level</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>Python Programming</h3>
+
+<p>Intermediate Level</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Machine Learning</h3>
+
+<p>Advanced Level</p>
+
+</div>
+
+
+
+</div>
+
+</section>
+
+
+
+<!-- Assessment CTA -->
+
+
+<section class="assessment">
+
+
+<h2>
+Take a Free Skill Assessment
+</h2>
+
+
+<p>
+Our intelligent system analyzes your abilities and suggests the best courses for you.
+</p>
+
+
+<br>
+
+
+<a class="btn" href="#">
+Start Now
+</a>
+
+
+</section>
+
+
+
+
+<!-- Testimonials -->
+
+
+<section class="section testimonial">
+
+
+<h2>
+Student Success Stories
+</h2>
+
+
+<div class="cards">
+
+
+<div class="card">
+<p>
+"EduSphere helped me choose the right programming course."
+</p>
+
+<h4>- Rahul</h4>
+</div>
+
+
+<div class="card">
+<p>
+"The assessment feature made learning easier and personalized."
+</p>
+
+<h4>- Priya</h4>
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+<footer>
+
+<p>
+© 2026 EduSphere Adaptive LMS | All Rights Reserved
+</p>
+
+</footer>
+
+
+</body>
+
+</html>
